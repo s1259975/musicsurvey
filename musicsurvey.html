@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<style>
+form { background-color: #000000;
+	   color: #ffffff;}
+	   
+label { float: left;
+		width: 100px;
+		padding-right: 10px;}
+		
+input, textarea { margin-top: 10px;
+				  display: block;}
+</style>
+</head>
+<body>
+<h1>Music Survey</h1>
+<form method="get" action="http://www.markmurtha.com/csis128/readform.asp">
+	Name: <input type="text" name="name" id="name"><br><br>
+	E-mail: <input type="email" name="email" id="email"><br><br>
+<fieldset>	
+	<legend>Select Your Favorite Types of Music:</legend> <br>
+<input type="checkbox" name="metal" id="metal">
+	<label>Metal</label><br>
+<input type="checkbox" name="Rap" id="Rap">
+	<label>Rap</label><br>
+<input type="checkbox" name="electronic" id="electronic">
+	<label>Electronic</label>
+</fieldset>
+	<br>
+
+<fieldset>
+	<legend>Select How Often You Purchase Music:</legend>	<br>
+<input type="radio" name="week" id="week">
+	<label>Once A Week</label><br>
+<input type="radio" name="month" id="month">
+	<label>Once A Month</label><br>
+<input type="radio" name="year" id="year">
+	<label>Once A Year</label><br>
+	
+</fieldset>
+<br><br>	
+	Locations Where You Listen To Music: <br>
+<select size="1" name="locations" id="locations">
+	<option> At Work</option>
+	<option> In The Car</option>
+	<option> At The Gym</option>
+	<option> At Home</option></select><br><br><br>
+
+	
+	What Role Does Music Play In Your Life?<br>
+<textarea name="role" id="role" cols="60" rows="3"></textarea><br><br><br>
+
+<input type="submit" value="Submit!"><input type="reset"><br><br><br>
+</form>
+</body>
+<footer>
+Andrew Hooper<br>
+
+Email: <a href="mailto:s1259975@student.mcckc.edu">s1259975@student.mcckc.edu</a>
+</footer>
+</html>
